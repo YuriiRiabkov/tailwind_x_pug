@@ -1,0 +1,22 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title practical work
+        link(rel="stylesheet", href="../dist/style.css")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap" rel="stylesheet")
+    body(class="dark:bg-slate-900")
+        
+        include ../components/header.pug
+        
+        include ../components/section.pug
+        button.mode.fixed.right-2.bottom-2.text-sm.bg-red-600.rounded-sm.text-white mode
+        include ../components/main.pug
+        include ../components/footer.pug
+        
+        
+    script(src="/js/main.js") 

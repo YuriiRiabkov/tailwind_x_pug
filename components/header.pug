@@ -1,0 +1,33 @@
+header.header.relative
+    div.container
+        nav.flex.justify-between.items-center.pt-7
+            a(href="#") 
+                img(src="/img/logo.svg", alt="логотип")
+            ul.flex.gap-12(class="md:hidden")
+                li
+                    a.font-medium.text-xl.text-lightblack(class='hover:text-lightred transition-colors')(class="lg:text-base")(href="#") О нас
+                li
+                    a.font-medium.text-xl.text-lightblack(class='hover:text-lightred transition-colors')(class="lg:text-base")(href="#") Студия
+                li
+                    a.font-medium.text-xl.text-lightblack(class='hover:text-lightred transition-colors')(class="lg:text-base")(href="#") Сервис
+                li
+                    a.font-medium.text-xl.text-lightblack(class='hover:text-lightred transition-colors')(class="lg:text-base")(href="#") Карьера
+                li
+                    a.font-medium.text-xl.text-lightblack(class='hover:text-lightred transition-colors')(class="lg:text-base")(href="#") Блог
+
+            ul#menu.hidden.absolute.left-6.right-6.top-24.py-9.bg-lightred.flex-col.items-center
+                li
+                    a.block.py-4.text-white(href="#") О нас
+                li
+                    a.block.py-4.text-white(href="#") Студия
+                li
+                    a.block.py-4.text-white(href="#") Сервис
+                li
+                    a.block.py-4.text-white(href="#") Карьера
+                li
+                    a.block.py-4.text-white(href="#") Блог
+
+            button.burger.hidden(class="md:block")
+                span.burger-line.top-line
+                span.burger-line.mid-line 
+                span.burger-line.bottom-line  

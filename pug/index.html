@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practical work</title>
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&amp;display=swap" rel="stylesheet">
+  </head>
+  <body class="dark:bg-slate-900">
+    <header class="header relative">
+      <div class="container">
+        <nav class="flex justify-between items-center pt-7"><a href="#"> <img src="/img/logo.svg" alt="логотип"></a>
+          <ul class="flex gap-12 md:hidden">
+            <li><a class="font-medium text-xl text-lightblack hover:text-lightred transition-colors lg:text-base" href="#">О нас</a></li>
+            <li><a class="font-medium text-xl text-lightblack hover:text-lightred transition-colors lg:text-base" href="#">Студия</a></li>
+            <li><a class="font-medium text-xl text-lightblack hover:text-lightred transition-colors lg:text-base" href="#">Сервис</a></li>
+            <li><a class="font-medium text-xl text-lightblack hover:text-lightred transition-colors lg:text-base" href="#">Карьера</a></li>
+            <li><a class="font-medium text-xl text-lightblack hover:text-lightred transition-colors lg:text-base" href="#">Блог</a></li>
+          </ul>
+          <ul class="hidden absolute left-6 right-6 top-24 py-9 bg-lightred flex-col items-center" id="menu">
+            <li><a class="block py-4 text-white" href="#">О нас</a></li>
+            <li><a class="block py-4 text-white" href="#">Студия</a></li>
+            <li><a class="block py-4 text-white" href="#">Сервис</a></li>
+            <li><a class="block py-4 text-white" href="#">Карьера</a></li>
+            <li><a class="block py-4 text-white" href="#">Блог</a></li>
+          </ul>
+          <button class="burger hidden md:block"><span class="burger-line top-line"></span><span class="burger-line mid-line"> </span><span class="burger-line bottom-line"> </span></button>
+        </nav>
+      </div>
+    </header>
+    <section class="section"> 
+      <div class="container">
+        <h1 class="title pt-24 font-black text-5xl max-w-1xl text-center mx-auto leading-snug lg:text-4xl lg:pt-16 md:text-3xl,pt-12 md:pt-12 md:max-w-full sm:pt-10 sm:text-xl">Развивай свой бизнес - онлайн. Получай. Больше. Прибыли.</h1>
+        <p class="subtitle text-xl tracking-tight text-center max-w-xl mx-auto mt-5 md:text-lg md:mt-4 sm:mt-2 sm:text-base">Хочешь заняться цифровым маркетингом ? Тогда вам нужны лиды, и именно здесь мы можем вам помочь.</p>
+        <div class="wrap_button flex justify-center gap-7 sm:flex-col sm:mt-8 sm:gap-0 sm:mt0"><a class="inline-block mt-6 py-3 px-7 shadow-customred bg-lightred rounded-2xl text-white text-xl tracking-tight sm:text-center sm:text-base" href="#">Начать здесь</a><a class="inline-block mt-6 py-3 px-7 rounded-2xl text-lightred text-xl tracking-tight border-2 border-lightred sm:text-center sm:text-base sm:mt-4" href="#">Узнать больше</a></div>
+      </div>
+    </section>
+    <button class="mode fixed right-2 bottom-2 text-sm bg-red-600 rounded-sm text-white">mode</button>
+    <main class="main"> 
+      <div class="container">
+        <div class="wrapper_blocks flex justify-between mt-40 pb-32 md:flex-col lg:mt-32 lg:pb-24">
+          <div class="left-section flex flex-col w-1/2 lg:w-full">
+            <h3 class="text-darkred font-bold text-xl tracking-tight">О нас</h3>
+            <h2 class="mt-1 text-4xl font-black"> Команда  за брендом.</h2>
+            <p class="mt-2 max-w-sm text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi, sit maxime, odit deserunt veniam voluptate inventore doloribus dolorum consectetur quae dolores qui. Quasi, quos?</p><a class="inline-block mt-6 py-3 px-8 shadow-customred bg-lightred rounded-2xl text-white text-xl tracking-tight text-center max-w-fit sm:text-center sm:text-base sm:max-w-full" href="#">Узнать больше</a>
+          </div>
+          <div class="right-section flex flex-col items-end w-1/2 mt-6 lg:w-full"><img class="w-[450px] lg:w-full" src="../img/background.jpg" alt="картинка командной работы"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer bg-darkgrey py-20">
+      <div class="container">
+        <div class="flex gap-40 md:flex-col">
+          <div class="max-w-xs max:w-full"><a href="№"><img src="/img/logo.svg" alt="логотип"></a>
+            <p class="mt-4 text-white text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, adipisci.</p>
+            <input class="mt-3 bg-slate-800 flex w-full py-3 px-4 rounded-xl border-2 border-slate-600 text-white focus:outline-none focus:outline-lightred" type="text" placeholder="Введите email">
+            <button class="inline-block mt-6 py-3 px-8 shadow-customred bg-lightred rounded-2xl text-white text-xl tracking-tight text-center">Отправить</button>
+          </div>
+          <div> 
+            <h2 class="text-lightred text-xl font-medium">Перейти</h2>
+            <ul class="mt-2">
+              <li class="mt-3"><a class="text-white text-xl font-medium hover:text-lightred" href="#">О нас</a></li>
+              <li class="mt-3"><a class="text-white text-xl fomtmedium hover:text-lightred" href="#">Контакты</a></li>
+              <li class="mt-3"><a class="text-white text-xl fomtmedium hover:text-lightred" href="#">Сервис</a></li>
+              <li class="mt-3"><a class="text-white text-xl fomtmedium hover:text-lightred" href="#">Кейсы студии</a></li>
+              <li class="mt-3"><a class="text-white text-xl fomtmedium hover:text-lightred" href="#">Блог</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="/js/main.js"> </script>
+</html>

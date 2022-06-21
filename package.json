@@ -1,0 +1,16 @@
+{
+  "name": "practic1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./css/input.css -o ./dist/style.css --watch",
+    "build": "npx tailwindcss -i ./css/input.css -o ./dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}
