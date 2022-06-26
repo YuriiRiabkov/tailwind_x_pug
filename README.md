@@ -1,1 +1,1 @@
-# tailwins_x_pug
+# tailwind_x_pug
